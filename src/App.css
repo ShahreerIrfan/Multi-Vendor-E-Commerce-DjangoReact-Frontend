@@ -43,4 +43,12 @@
 .nabvar{
   background-color: green !important;
 }
+.logo{
+  width: 150px;
+  height: auto;
+}
+.menu-items{
+  margin-left: 30px;
+  color: #fff;
+}
 

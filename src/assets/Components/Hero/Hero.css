@@ -1,0 +1,25 @@
+.borderr{
+    padding: 20px;
+    border: 1px solid gray;
+}
+.button-area{
+    display: flex;
+    gap: 10px;
+}
+.fixed-heigit {
+    height: 21rem; 
+}
+
+.product-img{
+    width: 200px;
+    height: auto;
+    margin: auto;
+}
+.shop-top{
+    display: flex;
+}
+.card-button{
+    gap: 2px !important;
+}
+
+  
