@@ -10,6 +10,7 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import Hero from './assets/Components/Hero/Hero';
 
 
 
@@ -18,7 +19,7 @@ function App() {
 
   return (
     <>
-      <Navbar expand="lg" className="bg-body-tertiary " >
+      <Navbar expand="lg" className=" bg-success" >
         <div className='container'>
           <Navbar.Brand href="#">Python Marker Place</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -34,6 +35,7 @@ function App() {
           </Navbar.Collapse>
         </div>
       </Navbar>
+      <Hero></Hero>
     </>
   )
 }
