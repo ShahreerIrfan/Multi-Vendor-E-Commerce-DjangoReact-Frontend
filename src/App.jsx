@@ -11,6 +11,9 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Hero from './assets/Components/Hero/Hero';
+import PopularCategory from './assets/Components/PopularCategory/PopularCategory';
+import LatestProduct from './assets/Components/LatestProduct/LatestProduct';
+import PopularSellers from './assets/Components/PopularSellers/PopularSellers';
 
 
 
@@ -36,6 +39,9 @@ function App() {
         </div>
       </Navbar>
       <Hero></Hero>
+      <PopularCategory></PopularCategory>
+      <LatestProduct></LatestProduct>
+      <PopularSellers></PopularSellers>
     </>
   )
 }
