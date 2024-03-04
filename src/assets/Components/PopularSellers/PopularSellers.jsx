@@ -23,7 +23,7 @@ const PopularSellers = () => {
                                 <p className="card-text">Some quick example text to describe the product.Some quick example text to describe the product.</p>
                             </div>
                             <div className="card-footer">
-                                Product download: 234
+                                Category: <a href="#">Python</a> <a href="#">JavaScript</a>
                             </div>
                             <div className="card-footer card-button">
                                 <button className="btn btn-primary mr-2"><LuShoppingCart /> Add to Cart</button>
@@ -41,7 +41,7 @@ const PopularSellers = () => {
                                 <p className="card-text">Some quick example text to describe the product.Some quick example text to describe the product.</p>
                             </div>
                             <div className="card-footer">
-                                Product download: 234
+                                Category: <a href="#">Python</a> <a href="#">JavaScript</a>
                             </div>
                             <div className="card-footer card-button">
                                 <button className="btn btn-primary mr-2"><LuShoppingCart /> Add to Cart</button>
@@ -59,7 +59,7 @@ const PopularSellers = () => {
                                 <p className="card-text">Some quick example text to describe the product.Some quick example text to describe the product.</p>
                             </div>
                             <div className="card-footer">
-                                Product download: 234
+                                Category: <a href="#">Python</a> <a href="#">JavaScript</a>
                             </div>
                             <div className="card-footer card-button">
                                 <button className="btn btn-primary mr-2"><LuShoppingCart /> Add to Cart</button>
@@ -77,7 +77,7 @@ const PopularSellers = () => {
                                 <p className="card-text">Some quick example text to describe the product.Some quick example text to describe the product.</p>
                             </div>
                             <div className="card-footer">
-                                Product download: 234
+                                Category: <a href="#">Python</a> <a href="#">JavaScript</a>
                             </div>
                             <div className="card-footer card-button">
                                 <button className="btn btn-primary mr-2"><LuShoppingCart /> Add to Cart</button>
