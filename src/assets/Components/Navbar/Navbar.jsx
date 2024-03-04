@@ -1,31 +1,32 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
-import { useState } from 'react'
-import Logo from '/logo.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { Navbar, Nav } from 'react-bootstrap';
+import { FaHome, FaUser, FaBriefcase, FaPhone } from 'react-icons/fa'; // Importing icons from React Icons
+import './NavBar.css';
 
 const NavBar = () => {
     return (
-        <div>
-            <Navbar expand="lg" className=" bg-success" >
-        <div className='container'>
-          <Navbar.Brand href="#"><img className='logo' src={Logo} alt="" /></Navbar.Brand>
-          <Navbar.Toggle aria-controls="navbarScroll" />
-          <Navbar.Collapse id="navbarScroll" className='menu-items'>
-            <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
-              navbarScroll
-            >
-              <Nav.Link href="#action1" style={{color:'#fff'}}>Home</Nav.Link>
-              <Nav.Link href="#action1" style={{color:'#fff'}}>Category</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </div>
-      </Navbar>
-        </div>
+        <Navbar expand="lg" variant="dark" className="custom-navbar">
+            <div className="container">
+                <Navbar.Brand href="#" className="fw-bold">MyWebsite</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                        <Nav.Link href="#" className="nav-link home">
+                            <FaHome className="me-1" /> Home
+                        </Nav.Link>
+                        <Nav.Link href="#" className="nav-link about">
+                            <FaUser className="me-1" /> About
+                        </Nav.Link>
+                        <Nav.Link href="#" className="nav-link services">
+                            <FaBriefcase className="me-1" /> Services
+                        </Nav.Link>
+                        <Nav.Link href="#" className="nav-link contact">
+                            <FaPhone className="me-1" /> Contact
+                        </Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </div>
+        </Navbar>
     );
 };
 

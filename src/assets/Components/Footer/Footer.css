@@ -1,0 +1,46 @@
+.footer-heading {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.footer-text {
+    color: #ccc;
+}
+
+.social-icons {
+    margin-top: 1rem;
+}
+
+.social-icon-link {
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: transform 0.3s ease;
+}
+
+.social-icon-link:hover {
+    transform: translateY(-3px);
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff;
+}
+
+.wave-container {
+    position: relative;
+    margin-top: -1px; /* Adjust to match the height of the wave */
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}

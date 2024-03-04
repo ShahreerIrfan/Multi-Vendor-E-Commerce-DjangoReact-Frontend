@@ -9,6 +9,8 @@ import LatestProduct from './assets/Components/LatestProduct/LatestProduct';
 import PopularSellers from './assets/Components/PopularSellers/PopularSellers';
 import NavBar from './assets/Components/Navbar/Navbar';
 import Hero from './assets/Components/Hero/Hero';
+import RatingsAndReviews from './assets/Components/RatingsAndReviews/RatingsAndReviews';
+import Footer from './assets/Components/Footer/Footer';
 
 
 
@@ -18,11 +20,15 @@ function App() {
 
   return (
     <>
+      <div className="whole-bg">
       <NavBar></NavBar>
       <Hero></Hero>
       <PopularCategory></PopularCategory>
       <LatestProduct></LatestProduct>
       <PopularSellers></PopularSellers>
+      <RatingsAndReviews></RatingsAndReviews>
+      <Footer></Footer>
+      </div>
     </>
   )
 }

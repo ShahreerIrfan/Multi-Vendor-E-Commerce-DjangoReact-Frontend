@@ -1,0 +1,33 @@
+.custom-navbar {
+    background-color: #5C3C92; /* Purple background color */
+}
+
+.custom-navbar .navbar-brand {
+    color: #FFD700; /* Golden yellow color for the brand text */
+}
+
+.custom-navbar .nav-link {
+    color: #fff; /* White color for the nav links */
+    margin-right: 20px; /* Add some spacing between nav links */
+    transition: color 0.3s ease; /* Smooth transition effect for color change */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #FFD700; /* Change color on hover to golden yellow */
+}
+
+.custom-navbar {
+    background-color: #4a7fce; /* Dark background color */
+}
+
+.custom-navbar .navbar-brand {
+    color: #fff; /* White color for the brand text */
+}
+
+.custom-navbar .nav-link {
+    color: #fff; /* White color for the nav links */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #17a2b8; /* Change color on hover */
+}
