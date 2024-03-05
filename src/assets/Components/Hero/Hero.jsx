@@ -6,6 +6,7 @@ import { LuShoppingCart } from "react-icons/lu";
 import { FaHeart } from "react-icons/fa";
 import { RxArrowRight } from "react-icons/rx";
 import './Hero.css';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return (
@@ -13,7 +14,7 @@ const Hero = () => {
             <main>
                 <div className="container mt-4">
                     <h3 style={{ display: 'inline' }}>Latest Products</h3>
-                    <a href="#" className='float-end btn btn-dark'>View all product <RxArrowRight /></a>
+                    <Link to='/products' className='float-end btn btn-dark'>View all product <RxArrowRight /></Link>
                     <div className="row mt-4">
                         <div className="col-12 col-md-3 mb-4 mt-4">
                             <div className="card fixed-height">

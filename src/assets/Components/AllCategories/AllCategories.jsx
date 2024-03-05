@@ -4,6 +4,7 @@ import Logo from '/logo.png';
 import { LuShoppingCart } from "react-icons/lu";
 import { FaHeart } from "react-icons/fa";
 import { RxArrowRight } from "react-icons/rx";
+import { Link } from 'react-router-dom';
 
 const AllCategories = () => {
     return (
@@ -17,7 +18,7 @@ const AllCategories = () => {
                             <div className="card fixed-height">
                                 <img src={Logo} className="card-img-top product-img" alt="Product" />
                                 <div className="card-body">
-                                    <h5 className="card-title"><a className='text-decoration-none' href="#">Category Title</a></h5>
+                                    <h5 className="card-title"><Link className='text-decoration-none' to='/category/python'>Category Title</Link></h5>
                                     <h3>Price: 30$</h3>
                                     <p className="card-text">Some quick example text to describe the product.Some quick example text to describe the product.</p>
                                 </div>

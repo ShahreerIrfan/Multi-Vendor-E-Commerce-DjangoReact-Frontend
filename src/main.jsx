@@ -11,6 +11,7 @@ import App from './App';
 import Layout from './assets/Components/Layout/Layout';
 import AllCategories from './assets/Components/AllCategories/AllCategories';
 import CategoryProductList from './assets/Components/CategoryProductList/CategoryProductList';
+import AllProducts from './assets/Components/AllProducts/AllProducts';
 
 
 const router = createBrowserRouter([
@@ -27,8 +28,12 @@ const router = createBrowserRouter([
         element: <AllCategories></AllCategories>
       },
       {
-        path:'category/python',
+        path:'/category/python',
         element:<CategoryProductList></CategoryProductList>
+      },
+      {
+        path:'/products',
+        element:<AllProducts></AllProducts>
       }
     ]
   },
