@@ -9,7 +9,8 @@ import {
 } from "react-router-dom";
 import App from './App';
 import Layout from './assets/Components/Layout/Layout';
-import PopularCategory from './assets/Components/PopularCategory/PopularCategory';
+import AllCategories from './assets/Components/AllCategories/AllCategories';
+import CategoryProductList from './assets/Components/CategoryProductList/CategoryProductList';
 
 
 const router = createBrowserRouter([
@@ -23,7 +24,11 @@ const router = createBrowserRouter([
       },
       {
         path : '/Category',
-        element: <PopularCategory></PopularCategory>
+        element: <AllCategories></AllCategories>
+      },
+      {
+        path:'category/python',
+        element:<CategoryProductList></CategoryProductList>
       }
     ]
   },

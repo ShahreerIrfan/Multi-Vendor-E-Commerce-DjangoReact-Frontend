@@ -11,6 +11,7 @@ import NavBar from './assets/Components/Navbar/Navbar';
 import Hero from './assets/Components/Hero/Hero';
 import RatingsAndReviews from './assets/Components/RatingsAndReviews/RatingsAndReviews';
 import Footer from './assets/Components/Footer/Footer';
+import AllCategories from './assets/Components/AllCategories/AllCategories';
 
 
 
