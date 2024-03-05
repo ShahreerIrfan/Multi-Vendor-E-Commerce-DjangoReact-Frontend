@@ -22,4 +22,8 @@
     gap: 2px !important;
 }
 
+.card-body {
+    padding: 20px !important; /* Increase the padding to 20px */
+}
+
   

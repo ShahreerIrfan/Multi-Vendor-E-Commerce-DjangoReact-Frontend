@@ -21,7 +21,6 @@ function App() {
   return (
     <>
       <div className="whole-bg">
-      <NavBar></NavBar>
       <Hero></Hero>
       <PopularCategory></PopularCategory>
       <LatestProduct></LatestProduct>

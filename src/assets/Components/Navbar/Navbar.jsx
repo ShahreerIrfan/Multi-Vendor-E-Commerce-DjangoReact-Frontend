@@ -1,7 +1,9 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { FaHome, FaUser, FaBriefcase, FaPhone } from 'react-icons/fa'; // Importing icons from React Icons
 import './NavBar.css';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
     return (
@@ -11,12 +13,8 @@ const NavBar = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#" className="nav-link home">
-                            <FaHome className="me-1" /> Home
-                        </Nav.Link>
-                        <Nav.Link href="#" className="nav-link about">
-                            <FaUser className="me-1" /> About
-                        </Nav.Link>
+                        <Link className="nav-link about" to='/'><FaUser className="me-1" /><FaHome className="me-1" /> Home </Link>
+                        <Link className="nav-link about" to='/category'><FaUser className="me-1" />Category</Link>
                         <Nav.Link href="#" className="nav-link services">
                             <FaBriefcase className="me-1" /> Services
                         </Nav.Link>
