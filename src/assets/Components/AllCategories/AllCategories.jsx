@@ -14,7 +14,7 @@ const AllCategories = () => {
                     <h3 style={{ display: 'inline' }}>All Categories</h3>
                     <a href="#" className='float-end btn btn-dark'>View all product <RxArrowRight /></a>
                     <div className="row mt-4">
-                    <div className="col-12 col-md-3 mb-4 mt-4">
+                        <div className="col-12 col-md-3 mb-4 mt-4">
                             <div className="card fixed-height">
                                 <img src={Logo} className="card-img-top product-img" alt="Product" />
                                 <div className="card-body">
@@ -67,6 +67,23 @@ const AllCategories = () => {
                             </div>
                         </div>
                     </div>
+                    <nav aria-label="Page navigation example">
+                        <ul className="pagination">
+                            <li className="page-item">
+                                <a className="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li className="page-item"><a className="page-link" href="#">1</a></li>
+                            <li className="page-item"><a className="page-link" href="#">2</a></li>
+                            <li className="page-item"><a className="page-link" href="#">3</a></li>
+                            <li className="page-item">
+                                <a className="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </main>
         </div>
